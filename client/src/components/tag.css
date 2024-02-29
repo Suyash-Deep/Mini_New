@@ -1,0 +1,181 @@
+.add-btn,
+.edit-btn {
+    background-color: #29374d; /* Even lighter shade of #0f172a */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.add-btn:hover,
+.edit-btn:hover {
+  background-color: #7e8086; /* Lighter shade of #0f172a */
+
+}
+
+.add-btn:disabled,
+.edit-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+.label input {
+  flex: 1; /* Make the input element fill the available space */
+  border: none; /* Remove border */
+  background: transparent; /* Set background to transparent */
+  outline: none; /* Remove outline */
+  color: inherit; /* Inherit the color from the parent (white) */
+}
+  
+  
+.label {
+  height: auto; /* Adjust height dynamically based on content */
+  width: auto; /* Allow width to adjust based on content */
+  padding: 5px 10px; /* Adjust padding for better appearance */
+  margin-right: 2px;
+  margin-bottom: 10px;  
+  border-radius: 5px;
+  border: 1px solid #000; /* Black border */
+  background-color: #c9cbce;
+  /* color: #fff; White text color for better contrast */
+  display: inline-block;
+  max-width: 150px; /* Set a maximum width to prevent the label from becoming too wide */
+  overflow: hidden; /* Hide overflow content if the label exceeds the maximum width */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow content */
+  white-space: nowrap; /* Prevent wrapping of text */
+}
+
+  
+
+  /* Add more classes for additional colors */
+  /* Styling for buttons */
+/* Styling for buttons */
+
+
+.buttonc{
+  margin-left: 50px;
+}
+
+
+
+/* Styling for container */
+.container {
+  margin-left: 50px;
+  /* margin: 90px auto 20px; Center the container horizontally and provide space at the bottom */
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 90vw; /* Adjusted width */
+  position: absolute; 
+  bottom: 10px; 
+}
+
+
+/* Styling for sentence container */
+.sentence-container {
+  margin: 20px; /* Set margin to 0 on top and bottom and 20px on left and right */
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 90vw; 
+  min-height: 29vh; /* Set a minimum height to ensure visibility */
+  max-height: calc(100vh - 230px); /* Set a maximum height to prevent it from growing too large, considering other fixed height elements */
+  background-color: #f0f0f0; /* Add a background color for visibility */
+  overflow: auto; /* Add overflow:auto to enable scrolling if content exceeds max-height */
+}
+
+/* Styling for buttons inside the container */
+.container button {
+  margin-top: 10px; /* Add space between buttons and container */
+}
+
+
+
+/* Styling for the container */
+.sentence-container {
+  margin: 0 20px; /* Set margin to 0 on top and bottom and 20px on left and right */
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 90vw; 
+  max-height: calc(100vh - 180px); /* Set a maximum height to prevent it from growing too large, considering other fixed height elements */
+  background-color: #f0f0f0; /* Add a background color for visibility */
+  overflow: auto; /* Add overflow:auto to enable scrolling if content exceeds max-height */
+}
+
+/* Styling for tag content */
+.tag-content {
+  font-size: 0.92em;
+  vertical-align: middle;
+  line-height: 1;
+  padding: 0.2em 0.3em;
+  margin: 0 0.25em;
+  border-radius: 0.25em;
+  /* background-color: #b3c7f9;  */
+}
+
+
+.delete-icon {
+  position: absolute; /* Position the delete icon relative to its parent label */
+  right: 5px; /* Adjust the distance of the delete icon from the right side of the label */
+  top: 50%; /* Align the delete icon vertically in the middle */
+  transform: translateY(-50%); /* Adjust the vertical alignment of the delete icon */
+  display: none; /* Hide the delete icon by default */
+  cursor: pointer;
+  color: red;
+}
+
+.edit-mode .delete-icon {
+  display: inline-block; /* Show the delete icon when in edit mode */
+}
+
+/* Styling for tag label */
+.tag-label {
+  box-sizing: border-box;
+  font-size: 0.61em;
+  line-height: 1;
+  padding: 0.35em 0.35em;
+  border-radius: 0.35em;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0.15rem 0.5rem;
+  /* background-color: #636368;  */
+  font-weight: 580;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ebebf3;
+  visibility: visible;
+}
+
+
+/* Styling for buttons */
+button {
+  background-color: #09062b; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Adjust padding for smaller button size */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px; /* Adjust font size for smaller text */
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px; /* Adjust border radius for a more rounded appearance */
+}
+
+/* Styling for disabled buttons */
+button:disabled {
+  background-color: #cccccc; /* Light gray */
+  cursor: not-allowed;
+}
+
+/* Styling for button hover effect */
+button:hover {
+  background-color: #7e8086; /* Darker green */
+}
