@@ -13,6 +13,7 @@
 .add-btn:hover,
 .edit-btn:hover {
   background-color: #7e8086; /* Lighter shade of #0f172a */
+  transform: translateY(-1px);
 
 }
 
@@ -177,5 +178,5 @@ button:disabled {
 
 /* Styling for button hover effect */
 button:hover {
-  background-color: #7e8086; /* Darker green */
+  background-color: #510297; /* Darker green */
 }

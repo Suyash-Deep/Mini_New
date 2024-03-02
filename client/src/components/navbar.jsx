@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import FileUpload from "./fileupload";
 import "./navbar.css";
 
+
 export const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const fileInputRef = useRef(null);
@@ -64,7 +65,7 @@ export const Navbar = () => {
 					</li>
 					{/* Add links to the login and signup pages */}
 					<li>
-						<NavLink to="/login">Logout</NavLink>
+						<NavLink to="/">Logout</NavLink>
 					</li>
 				</ul>
 			</nav>
